@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infocircus.passport">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_p"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_p_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        >
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/noActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewPassport"
+            android:label="নতুন পাসপোর্ট">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ReIssue"
+            android:label="পাসপোর্ট নবায়ন">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ambassy"
+            android:label="বিদেশস্থ মিশন">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DivisionalOfiiceList"
+            android:label="বিভাগীয় পাসপোর্ট অফিস">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Regional"
+            android:label="আঞ্চলিক পাসপোর্ট অফিস">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PassportFee"
+            android:label="পাসপোর্ট ফি">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Forms"
+            android:label="পাসপোর্ট ফরম">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".AboutMe"
+            android:label="ডেভেলোপারের তথ্য">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Step0"
+            android:label="যা যা প্রয়োজন">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewPassport" />
+        </activity>
+        <activity
+            android:name=".Step1"
+            android:label="ব্যাংকে টাকা জমা">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewPassport" />
+        </activity>
+        <activity
+            android:name=".Step2"
+            android:label="অনলাইনে আবেদন">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewPassport" />
+        </activity>
+
+        <activity
+            android:name=".Step3"
+            android:label="আবেদনপত্র জমাদান">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewPassport" />
+        </activity>
+        <activity
+            android:name=".Step4"
+            android:label="যারা সত্যায়িত করতে পারবেন">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewPassport" />
+
+        </activity>
+    </application>
+
+</manifest>

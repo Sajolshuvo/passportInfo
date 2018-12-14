@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">পাসপোর্ট তথ্য</string>
+    <string name="title">Machine Readable Passport</string>
+    <string name="abedoner_prokiriti">আবেদনের প্রকৃতি</string>
+    <string name="bitoron">বিতরণের ধরণ</string>
+    <string name="pass_fee">পাসপোর্ট ফি</string>
+    <string name="notun_abed">নতুন আবেদনকারী/ হাতে লেখা পাসপোর্ট সমর্পণকৃতদের (সারেন্ডার) জন্য</string>
+    <string name="joruri">জরুরি ফিস (৭ দিন)</string>
+    <string name="sadharon7">সাধারণ ফিস (২১ দিন)</string>
+    <string name="noc">অনাপত্তি সনদ (NOC) এর ভিত্তিতে (জরুরি সুবিধাসহ)</string>
+    <string name="six_thous">৬০০০.০০ + ১৫% ভ্যাট = ৬৯০০.০০ টাকা</string>
+    <string name="three_thousand">৩০০০.০০ + ১৫% ভ্যাট = ৩৪৫০.০০ টাকা</string>
+    <string name="reissue">রি-ইস্যু্</string>
+    <string name="meyad">মেয়াদোত্তীর্ণ পাসপোর্ট রি-ইস্যুর ক্ষেত্রে অতিরিক্ত ফিস (মেয়াদ পরবর্তি প্রতি বছরের জন্য)</string>
+    <string name="sadharon3">সাধারণ ফিস</string>
+    <string name="three_fourty_five">৩০০.০০ + ১৫% ভ্যাট = ৩৪৫.০০ টাকা</string>
+    <string name="hoj">সরকারি আদেশ (GO) এর ভিত্তিতে চিকিৎসা, হজ্জ্ব পালন, তীর্থস্থান ভ্রমণের ক্ষেত্রে (জরুরি সুবিধাসহ)</string>
+    <string name="free">সরকারি আদেশ (GO) এর ভিত্তিতে সরকারি কাজের ক্ষেত্রে (জরুরি সুবিধাসহ)</string>
+    <string name="frree">বিনামূল্যে</string>
+    <string name="head">মেশিন রিডেবল পাসপোর্ট (MRP) ফি (বাংলাদেশ)</string>
+    <string name="priborton_joggo_nohe">পরিবর্তন যোগ্য নহে।</string>
+    <string name="abedon_form_re">আবেদন ফরম </string>
+    <string name="mrp">মেশিন রিডেবল পাসপোর্ট আবেদন ফরম</string>
+    <string name="mrp_filled">মেশিন রিডেবল পাসপোর্ট আবেদনের পূরণকৃত নমুনা ফরম</string>
+    <string name="re_issue">পাসপোর্ট(এমআরপি) রি-ইস্যু/তথ্য পরিবর্তন/সংশোধন এর আবেদন ফরম</string>
+    <string name="extraform">পাসপোর্টের অতিরিক্ত তথ্য সংযোজন ফরম</string>
+    <string name="bank_fee_list">ব্যাংক ফি ও ব্যাংকের তালিকা</string>
+    <string name="mrp_instruction_download">MRP অনলাইন আবেদন ইন্সট্রাকশন</string>
+</resources>

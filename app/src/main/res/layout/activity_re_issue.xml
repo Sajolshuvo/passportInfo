@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".ReIssue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/red"
+                android:padding="4dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/abedon_form_re"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/d1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:padding="4dp"
+                android:text="@string/three_fourty_five"
+                android:textColor="@color/white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="2"
+                        android:text="পরিবর্তনযোগ্য তথ্য"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="3"
+                        android:text="নিজের নাম/পিতা/মাতার নাম আংশিক পরিবর্তন" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="3"
+                        android:text="নিজের নাম/পিতা/মাতার নাম পূর্ণাঙ্গ পরিবর্তন " />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="3"
+                        android:text="বৈবাহিক অবস্থা পরিবর্তন/বিবাহ বিচ্ছেদের ক্ষেত্রে" />
+
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="2"
+                        android:text="জন্ম তারিখ পরিবর্তন" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="5"
+                        android:text="স্থায়ী ঠিকানা" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="2"
+                        android:text="কাগজপত্র"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="3"
+                        android:text="@string/priborton_joggo_nohe" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="3"
+                        android:text="@string/priborton_joggo_nohe" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="3"
+                        android:text="নিকাহনামা/ তালাকনামা (যেখানে যে টি প্রযোজ্য)।" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="2"
+                        android:text="@string/priborton_joggo_nohe" />
+
+                    <TextView
+                        style="@style/tableTextView"
+                        android:layout_weight="5"
+                        android:text="পুলিশ প্রতিবেদন (এর জন্য পূরণকৃত ১ কপি রি-ইস্যু ফরম ও ১ কপি সত্যায়িত নতুন আবেদন ফরম-ডিআইপি ফরম-১)।" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/d3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:padding="4dp"
+                android:text="@string/three_fourty_five"
+                android:textColor="@color/green" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
